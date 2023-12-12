@@ -34,7 +34,7 @@ class MoveBehavior extends Behavior<Dash> with HasGameRef<BurningDashGame> {
       parent.velocity.x = 0;
       parent.position.x = parent.size.x / 2;
     } else if (parent.position.x >
-        gameRef.camera.visibleWorldRect.width - parent.size.x / 2) {
+        gameRef.camera.viewport.size.x - parent.size.x / 2) {
       parent.velocity.x = 0;
       parent.position.x =
           gameRef.camera.visibleWorldRect.width - parent.size.x / 2;

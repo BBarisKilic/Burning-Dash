@@ -103,7 +103,7 @@ class BurningDashGame extends FlameGame
 
   void _setCamera() {
     camera.viewport.size = Vector2(mapWidth!, mapHeight!);
-    camera.viewfinder.visibleGameSize = Vector2(mapWidth! / 4, mapHeight!);
+    camera.viewfinder.visibleGameSize = Vector2(0, mapHeight!);
     camera.viewfinder.position = size / 2;
 
     camera
