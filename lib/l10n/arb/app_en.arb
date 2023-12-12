@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "titleAppBarTitle": "Burning Dash",
+  "titleButtonStart": "Start",
+  "loading": "Loading {label}...",
+  "loadingPhaseLabel": "{loadingPhase, select, audio{Delightful music} images{Beautiful scenery} other{ }}"
+}
